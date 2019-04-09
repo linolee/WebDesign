@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>design</title>
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Jua" rel="stylesheet">
+<style type="text/css">
+	body{margin: 0px;}
+	#headerMenu{width: 100%; background-color: #EAEAEA;}
+	#headerMenuTable{font-weight: bold; border-spacing: 0px; border-collapse: collapse; width: 1000px; position: relative; margin: auto;}
+	#headerMenuTable td{font-family: Jua ;font-size: 15px ; width: 80px;padding: 5px;margin-left: 30px; margin-right: 30px; text-align: center; position: static;}
+	#headerLogo{width: 100%; background-color: #999999; text-align: center; padding: 10px; }
+
+	.green_window {	display: inline-block;	width: 366px; height: 34px;	border: 3px solid #2db400;	background: white;}
+	.input_text {	width: 348px; height: 21px;	margin: 6px 0 0 9px;	border: 0;	line-height: 21px;	font-weight: bold;	font-size: 16px;	outline: none;}
+.sch_smit {
+	width: 54px; height: 40px;
+	margin: 0; border: 0;
+	vertical-align: top;
+	background: #22B600;
+	color: white;
+	font-weight: bold;
+	border-radius: 1px;
+	cursor: pointer;
+}
+.sch_smit:hover {
+	background: #56C82C;
+}
+
+	#searchTF{border: 5px #333;}
+	#headerCategory{width: 100%; background-color: #151515;}
+	#headerCategoryTable{font-weight: bold; border-spacing: 0px; border-collapse: collapse; width: 1000px; position: relative; margin: auto;}
+	#headerCategoryTable td{color: #EAEAEA;font-family: Jua ;font-size: 13px ; width: 80px;padding: 5px;margin-left: 30px; margin-right: 30px; text-align: center; position: static;}
+</style>
+<script type="text/javascript">
+	
+
+</script>
+</head>
+<body>
+	<div id="wrap">
+		<div id="header">
+			<div id="headerMenu">
+				<table id="headerMenuTable">
+					<tr>
+						<td>회원정보</td>
+						<td>강의관리</td>
+						<td>수강관리</td>
+						<td>로그아웃</td>
+						<td>고객센터</td>
+						<td>이용안내</td>
+					</tr>
+				</table>
+			</div>
+			<div id="headerLogo">
+				
+				<img alt="로고" src="../common/images/logo.png">
+				<span class='green_window'>
+					<input type='text' class='input_text' />
+				</span>
+				<button type='submit' class='sch_smit'>검색</button>
+			</div>
+			<div id="headerCategory">
+				<table id="headerCategoryTable">
+					<tr>
+						<td>전체메뉴 열기 ▼</td>
+						<td>디자인</td>
+						<td>프로그래밍</td>
+						<td>영상</td>
+						<td>교육</td>
+						<td>스포츠</td>
+						<td>요리</td>
+						<td>악기</td>
+						<td>기타</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+
+	</div>
+
+</body>
+</html>
